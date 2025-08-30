@@ -1,5 +1,6 @@
 // @ts-check
 
+import { fileURLToPath } from 'node:url'
 import * as tailwind from 'prettier-plugin-tailwindcss'
 
 /** @type {import('prettier').Config} */
@@ -38,6 +39,15 @@ export default {
         requirePragma: true,
       },
     },
+    {
+      files: ['**/jsr.json'],
+      options: {
+        parser: 'json-stringify',
+      },
+    },
   ],
-  plugins: [tailwind],
+  plugins: [
+    tailwind,
+    fileURLToPath(import.meta.resolve('@prettier/plugin-oxc')),
+  ],
 }
