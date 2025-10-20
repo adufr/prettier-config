@@ -1,7 +1,7 @@
 {
   "name": "@adufr/prettier-config",
   "version": "1.0.1",
-  "packageManager": "pnpm@10.18.2",
+  "packageManager": "pnpm@10.18.3",
   "description": "Prettier config for @adufr",
   "type": "module",
   "license": "MIT",
@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "@prettier/plugin-oxc": "^0.0.4",
-    "prettier-plugin-tailwindcss": "^0.6.14"
+    "prettier-plugin-tailwindcss": "^0.7.1"
   },
   "devDependencies": {
     "@adufr/eslint-config": "^3.0.0",
