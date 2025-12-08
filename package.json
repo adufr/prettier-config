@@ -41,7 +41,7 @@
     "@adufr/eslint-config": "^3.0.0",
     "bumpp": "^10.3.2",
     "eslint": "^9.39.1",
-    "prettier": "^3.7.3"
+    "prettier": "^3.7.4"
   },
   "prettier": "./index.js"
 }
