@@ -1,7 +1,7 @@
 {
   "name": "@adufr/prettier-config",
   "version": "1.0.2",
-  "packageManager": "pnpm@10.28.0",
+  "packageManager": "pnpm@10.28.1",
   "description": "Prettier config for @adufr",
   "type": "module",
   "license": "MIT",
@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@adufr/eslint-config": "^3.0.0",
-    "bumpp": "^10.3.2",
+    "bumpp": "^10.4.0",
     "eslint": "^9.39.2",
     "prettier": "^3.7.4"
   },
