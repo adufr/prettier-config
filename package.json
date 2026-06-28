@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@adufr/eslint-config": "^3.0.0",
-    "bumpp": "^10.4.0",
+    "bumpp": "^11.1.0",
     "eslint": "^9.39.4",
     "prettier": "^3.8.4"
   },
