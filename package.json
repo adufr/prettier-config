@@ -40,8 +40,8 @@
   "devDependencies": {
     "@adufr/eslint-config": "^3.0.0",
     "bumpp": "^10.4.0",
-    "eslint": "^9.39.4",
-    "prettier": "^3.9.4"
+    "eslint": "^9.39.5",
+    "prettier": "^3.9.5"
   },
   "prettier": "./index.js"
 }
